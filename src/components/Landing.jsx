@@ -3,8 +3,14 @@ import Typography from './ui/custom/Typography'
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
 import { motion } from 'framer-motion'
 import { Button } from './ui/button'
+import { useNavigate } from 'react-router-dom'
 const Home = () => {
 
+    const navigate = useNavigate()
+
+    const handleContinue = () => {
+        navigate('/home')
+    }
 
     return (
         <div className='min-h-auto bg-background'>
@@ -18,8 +24,19 @@ const Home = () => {
                     transition={{ duration: 0.7, ease: 'easeInOut' }}
                     className="text-center"
                     whileTap={{ cursor: "grabbing" }}>
-                    <Typography variant='h1'>Ziomela!</Typography>
+                    <Typography variant='h1'>Hello!</Typography>
                 </motion.div>
+
+                <motion.div
+                    initial={{ opacity: 0, x: -50 }}
+                    animate={{ opacity: 1, x: 0 }}
+                    drag="y"
+                    transition={{ duration: 0.7, delay: 0.6, ease: 'easeInOut' }}
+                    className='text-left'>
+                    <Typography variant='h2'>This is my portfolio.</Typography>
+                </motion.div>
+
+                <Button className="bg-primary" onClick={handleContinue}>Continue</Button>
             </section>
 
         </div>
