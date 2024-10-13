@@ -18,7 +18,8 @@ const Home = () => {
                     transition={{ duration: 0.7, ease: 'easeInOut' }}
                     className="text-center"
                     whileTap={{ cursor: "grabbing" }}>
-                    <Typography variant='h1'>Ziomela!</Typography>
+                    <Typography variant='h1'>13/10/2024:</Typography>
+                    <Typography variant='h2'>Erika ha RIFIUTATO coccoline 😡</Typography>
                 </motion.div>
             </section>
 

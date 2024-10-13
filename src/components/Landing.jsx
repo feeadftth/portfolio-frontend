@@ -33,8 +33,9 @@ const Home = () => {
                     drag="y"
                     transition={{ duration: 0.7, delay: 0.6, ease: 'easeInOut' }}
                     className='text-left'>
-                    <Typography variant='h2'>This is my portfolio.</Typography>
+                    <Typography variant='h2' className='pb-6'>This is my portfolio.</Typography>
                 </motion.div>
+
 
                 <Button className="bg-primary" onClick={handleContinue}>Continue</Button>
             </section>
