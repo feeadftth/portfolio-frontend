@@ -1,0 +1,24 @@
+{
+    "header": {
+        "navHome": "Home",
+        "navProjects": "Progetti",
+        "navSkills": "Competenze",
+        "navContact": "Contatti"
+    },
+    "hero": {
+        "title": "Progettazione di applicazioni web veloci, affidabili e coinvolgenti",
+        "subtitle": "Creare esperienze digitali con un focus sulla qualità e le prestazioni.",
+        "ctaExplore": "Esplora i miei lavori",
+        "ctaContact": "Contattami"
+    },
+    "projects": {
+        "title": "Progetti",
+        "description": "Ecco alcuni dei progetti a cui ho lavorato.",
+        "viewDetails": "Vedi Dettagli"
+    },
+    "footer": {
+        "rights": "Tutti i diritti riservati.",
+        "contact": "Informazioni di contatto",
+        "follow": "Seguimi"
+    }
+}

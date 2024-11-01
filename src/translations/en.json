@@ -1,0 +1,24 @@
+{
+    "header": {
+        "navHome": "Home",
+        "navProjects": "Projects",
+        "navSkills": "Skills",
+        "navContact": "Contact"
+    },
+    "hero": {
+        "title": "Engineering Fast, Reliable, and Engaging Web Applications",
+        "subtitle": "Crafting digital experiences with a focus on quality and performance.",
+        "ctaExplore": "Explore My Work",
+        "ctaContact": "Contact Me"
+    },
+    "projects": {
+        "title": "Projects",
+        "description": "Here are some of the projects I've worked on.",
+        "viewDetails": "View Details"
+    },
+    "footer": {
+        "rights": "All rights reserved.",
+        "contact": "Contact Information",
+        "follow": "Follow Me"
+    }
+}
